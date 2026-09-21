@@ -1,0 +1,28 @@
+# 编译产物
+*.o
+*.ko
+*.mod
+*.mod.c
+*.order
+*.symvers
+*.cmd
+*.so
+*.a
+a.out
+build/
+out/
+
+# 内核源码（体积巨大，绝不入库）
+linux-*/
+u-boot*/
+buildroot*/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
